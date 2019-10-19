@@ -1,16 +1,130 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Bragners Bygg</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <div class="container">
-            Hello
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Bragners Bygg</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+  </head>
+  <body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Bragners Bygg</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Hem</a></li>
+            <li><a href="#projects">Projekt</a></li>
+            <li><a href="#history">Historia</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <div class="container marketing">
+      <div id="intro" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Bygg | <span class="text-muted">Service</span> | Snickeri</h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
-    </body>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/hammer-1868956_1280.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+    </div>  
+
+    <div id="projects" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#projects" data-slide-to="0" class="active"></li>
+          <li data-target="#projects" data-slide-to="1"></li>
+          <li data-target="#projects" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img class="first-slide" src="img/floor-1256804_1280.jpg" alt="First slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Projekt 1</h1>
+                <p>Beskrivning ....</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="second-slide" src="img/tool-3809177_1280.jpg" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Projekt 2</h1>
+                <p>Beskrivning ....</p>
+             </div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="third-slide" src="img/tools-569108_1280.jpg" alt="Third slide">
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Projekt 3</h1>
+                <p>Beskrivning ....</p></div>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#projects" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#projects" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+    
+    <div class="container marketing">
+     <hr class="featurette-divider">
+      <div id="history" class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading"><span class="text-muted">Historia.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="img/woodworking-691329_1280.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div id="contact" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Kontakt.</h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="img/tools-498202_1280.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+
+      <footer>
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Bragners Bygg</p>
+        <p class="pull-right"><a href="#">Tillbaka</a></p>
+      </footer>
+
+    </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
 </html>
